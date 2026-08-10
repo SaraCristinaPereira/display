@@ -70,3 +70,6 @@ Este projeto faz parte dos meus estudos de HTML e CSS e tem como objetivo transf
 ---
 
 Feito para fins de estudo e prática com CSS. 💻
+
+    '''bash
+    git clone 
