@@ -2,31 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial;
 
 }
 
-.section-container{
-    height: 100vh;
+.main-container{
     width: 100%;
+    height: 100%;
     display: flex;
-
- 
 }
 
-h1{
-    color: bisque;
-    display: inline;
+.main-container__right--subtitle{
+    color: aqua;
 }
-
-
 
 .main-container__left{
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 40px;
-    width: auto;
+    width: ;
     height: 40%;
-    align-items: start;
+
 }
 
 .main-container__right{
@@ -35,7 +31,4 @@ h1{
 
 
 
-.main-container__right--title{
-    text-align: center;
-}
 
