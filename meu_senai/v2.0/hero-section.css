@@ -1,0 +1,80 @@
+/* Reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*Estilizar a TAG Body */
+body {
+    background-color:aliceblue;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-header {
+    width: 100%;
+    height: 380px;
+    background-color: antiquewhite;
+    display: flex;
+    /* Alinhar na vertical*/
+    align-items: center;
+    /* Alinhar na horizontal*/
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Estilizar um elemento através da classe */
+
+.banner-header {
+    width: 1440px;
+    height: 380px;
+    background-color: blueviolet;
+
+}
+
+.content-main {
+    display: flex;
+    width: 1500px;
+    height: 500px;
+    border: 1px solid seagreen;
+    justify-content: center;
+}
+
+.content-hero {
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1200px;
+    height: 480px;
+}
+
+.box {
+    width: 350px;
+    height: 480px;
+    border-radius: 12px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.content-hero--left {
+    background-color: antiquewhite;
+}
+
+.content-hero--center {
+    background-color:aquamarine;
+}
+
+.content-hero--right {
+    background-color: cadetblue;
+}
+
+
+
+
+

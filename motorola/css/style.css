@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: bisque;
+    display: inline;
+}
+
+.main-container{
+    align-items: center;
+}
+
+.main-container__left{
+    margin: 20px;
+    align-items: flex-start;
+}
+
+.main-container__right--title{
+    text-align: center;
+}
