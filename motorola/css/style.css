@@ -2,11 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .section-container{
-    width: 100vw;
     height: 100vh;
+    width: 100%;
+    display: flex;
+
+ 
 }
 
 h1{
@@ -14,16 +18,15 @@ h1{
     display: inline;
 }
 
-h2{
-    color:blue;
-}
-
 
 
 .main-container__left{
-    margin: 20px;
-    width: 500px;
-    height: 50%;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 40px;
+    width: auto;
+    height: 40%;
+    align-items: start;
 }
 
 .main-container__right{
@@ -35,3 +38,4 @@ h2{
 .main-container__right--title{
     text-align: center;
 }
+
