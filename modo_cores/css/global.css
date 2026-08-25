@@ -10,6 +10,11 @@
 
 }
 
+.color-section__title{
+    color:bisque;
+
+}
+
 .color-section__sidebar{
 
 }
@@ -31,3 +36,12 @@
 }
 
 
+.color-section__bar--rgb-1{
+    width: 25%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.color-section__bar--rgb-2{
+
+}
