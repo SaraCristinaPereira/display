@@ -16,7 +16,11 @@
 }
 
 .color-section__sidebar{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 260px;
+    padding: 30px 20px;
 }
 
 .color-section__title{
