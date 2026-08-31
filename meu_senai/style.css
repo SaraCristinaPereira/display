@@ -6,6 +6,15 @@
 
 }
 
+:root{
+
+    --bg-color-container: #ffffff;
+    --banana: #fff000;
+
+    --fonte-padrao: Arial;
+    --border-headder-container: 2px solid red;
+}
+
 html{
     font-family: Verdana, sans-serif;
 }
