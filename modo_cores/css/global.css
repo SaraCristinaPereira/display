@@ -76,6 +76,21 @@
     transform: scaleX(1.02);
     z-index: 10;
     box-shadow: 0 0 30px rgba(51, 50, 50, 0.3);
+
+}
+
+.color-section__bar span{
+    background-color: aliceblue;
+    padding: 10px 12px;
+    border-radius: 12px;
+    visibility: hidden;
+}
+
+.color-section__bar:hover span{
+    background-color: aliceblue;
+    padding: 10px 12px;
+    border-radius: 12px;
+    visibility: visible;
 }
 
 
@@ -103,4 +118,32 @@
 .color-section__bar--cmyk-5{background-color: var(--color-cmyk-5);}
 
 .color-section__bar--cmyk-6{background-color: var(--color-cmyk-6);}
+
+
+.color-section__bar--netflix-1{background-color: var(--color-netflix-1);}
+
+.color-section__bar--netflix-2{background-color: var(--color-netflix-2);}
+
+.color-section__bar--netflix-3{background-color: var(--color-netflix-3);}
+
+
+.color-section__bar--google-1{background-color: var(--color-google-1);}
+
+.color-section__bar--google-2{background-color: var(--color-google-2);}
+
+.color-section__bar--google-3{background-color: var(--color-google-3);}
+
+.color-section__bar--google-4{background-color: var(--color-google-4);}
+
+
+.color-section__bar--instagram-1{background-color: var(--color-instagram-1);}
+
+.color-section__bar--instagram-2{background-color: var(--color-instagram-2);}
+
+.color-section__bar--instagram-3{background-color: var(--color-instagram-3);}
+
+.color-section__bar--instagram-4{background-color: var(--color-instagram-4);}
+
+.color-section__bar--instagram-5{background-color: var(--color-instagram-5);}
+
 
