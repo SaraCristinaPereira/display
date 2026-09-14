@@ -1,12 +1,12 @@
-brands
+brands - section 
 |
-|--brands__title
+|--brands__title - div
 |
-|--brands__section
+|--brands__grid - div
     |
-    |--brand-container (kaiak)
-    |    |--brand-container__image
-    |    |--brand-container__title
-    |    |--brand-container__description
-    |    |--brand-container__button
+    |--brand-card (kaiak) - article
+    |    |--brand-card__image - div
+    |    |--brand-card__title - h2
+    |    |--brand-card__description - p
+    |    |--brand-card__button - button
     
