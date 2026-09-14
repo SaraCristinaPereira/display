@@ -1,0 +1,12 @@
+brands
+|
+|--brands__title
+|
+|--brands__section
+    |
+    |--brand-container (kaiak)
+    |    |--brand-container__image
+    |    |--brand-container__title
+    |    |--brand-container__description
+    |    |--brand-container__button
+    
