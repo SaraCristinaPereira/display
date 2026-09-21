@@ -118,3 +118,27 @@ html{
 Display inline: elementos são em linhas e não aceita altura e largura (ocupa apenas seu espaço).
 Display block: elementos são um abaixo do outro e aceita largura e altura (ocupa a linha inteira).
 Display inline-block: elementos em linha e aceita largura e altura.*/
+
+.sumario details {
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 25px;
+
+}
+
+.sumario summary{
+    background: antiquewhite;
+    color: #000;
+    height: 35px;
+    display: flex;
+    align-items: center;
+
+}
+
+.sumario p{
+    color: aquamarine;
+    background: #fff;
+    line-height: 25px;
+
+}
