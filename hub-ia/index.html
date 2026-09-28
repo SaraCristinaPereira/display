@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de @media</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+
+        }
+        body {
+            padding: 20px;
+            background-color: grey;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        h1{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+
+        }
+        
+        .box{
+            width: 100%;
+            max-width: 400px;
+            height: 200px;
+            background-color: black;
+        }
+
+        .container-position{
+            width: 100%;
+            border: 2px solid darkmagenta;
+            height: 600px;
+            position: relative;
+
+        }
+
+        .filho-tamanho{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color:plum;
+        }
+
+        .filho01__container-position{
+            top: 0;
+            left: 0;
+        }
+
+        .filho02__container-position{
+            top: 0;
+            right: 0;
+        }
+
+        .filho03__container-position{
+            bottom: 0;
+            left: 0;
+        }
+
+
+
+        .filho04__container-position{
+            bottom: 0;
+            right: 0;
+
+        }
+
+        .whatsapp1{
+            position: fixed;
+            bottom: 100px;
+            right: 60px;
+            cursor: pointer;
+            border: 3px solid white;
+            border-radius: 50%;
+
+        }
+        
+        .link {
+            margin: 10px;
+            gap: 20px;
+            border: 1px solid rgb(173, 173, 173);
+            background-color: rgb(216, 216, 216);
+            border-radius: 20px;
+        }
+
+        .link-falso{
+            color: #535353;
+            cursor: pointer;
+        }
+
+        @media(min-width: 768px) {
+            body {
+                background-color:lavender;
+                color: white;
+            }
+            .box{
+                    width: 45%;
+                    max-width: 400px;
+                }
+            
+            }
+
+        @media(min-width: 992px) {
+            body {
+                background-color:mediumpurple;
+                color: black;
+                }
+            }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HubIA </h1>
+
+        <!-- <div class="link">
+            <span class="link-falso">visão Computacional</span>
+            <span class="link-falso">PLN</span>
+            <span class="link-falso">IA Generativa</span>
+            <span class="link-falso">IA Preditiva</span>
+            <span class="link-falso">FAQ</span>
+        </div> -->
+    </header>
+
+    <div class="container">
+
+        <!-- <div class="text">
+            <h1 class = "title01">1. Visão Computacional</h1>
+            <p>A visão Computacional permite que os sistemas <b>extraiam informações estruturadas de imagens e vídeos</b>. 
+                O modelo identica objetos, padrões biométricos e falhas insdustriais em tempo real com alta precisão.</p>
+            <p><i>Exemplo de aplicação:</i> Diagnóstico médico automatizado analisando radiografias para identificar anomalias precocemente.</p>
+        </div> -->
+
+        <div class= "box"></div>
+        <div class= "box"></div>
+        <div class= "box"></div>
+        <div class= "box"></div>
+
+        <div class="container-position">
+
+            <div class="filho01__container-position filho-tamanho"></div>
+            <div class="filho02__container-position filho-tamanho"></div>
+            <div class="filho03__container-position filho-tamanho"></div>
+            <div class="filho04__container-position filho-tamanho"></div>
+
+        </div>
+
+        <div class="whatsapp1">
+            <p><img src="./img/images.png" alt="Logo do Whatsapp" style="float:right;width:65px;height:65px;"></p>
+        </div>
+    </div>
+
+</body>
+</html>
